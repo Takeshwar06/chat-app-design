@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container ">
+        <div class="container">
+
+            <!-- contact -->
+            <div class="contact-container">
+                <div class="brand">
+                    <div class="logo">
+                        <img src="logo.png" alt="logo" />
+                        <h3>snappy</h3>
+                    </div>
+                    <div class="searchbar">
+                        <input type="text" placeholder="search contact">
+                    </div>
+                </div>
+                <div class="contacts">
+                    <div class="selected contact">
+                        <div class="avatar">
+                            <img src='logo.png' alt="tiger" />
+                        </div>
+                        <div class="username">
+                            <h3>{contact.username}</h3>
+                        </div>
+                    </div>
+                    <div class=" contact">
+                        <div class="avatar">
+                            <img src='logo.png' alt="tiger" />
+                        </div>
+                        <div class="username">
+                            <h3>{contact.username}</h3>
+                        </div>
+                    </div>
+                    <div class=" contact">
+                        <div class="avatar">
+                            <img src='logo.png' alt="tiger" />
+                        </div>
+                        <div class="username">
+                            <h3>{contact.username}</h3>
+                        </div>
+                    </div>
+                    <div class=" contact">
+                        <div class="avatar">
+                            <img src='logo.png' alt="tiger" />
+                        </div>
+                        <div class="username">
+                            <h3>{contact.username}</h3>
+                        </div>
+                    </div>
+                    <div class=" contact">
+                        <div class="avatar">
+                            <img src='logo.png' alt="tiger" />
+                        </div>
+                        <div class="username">
+                            <h3>{contact.username}</h3>
+                        </div>
+                    </div>
+                    <div class=" contact">
+                        <div class="avatar">
+                            <img src='logo.png' alt="tiger" />
+                        </div>
+                        <div class="username">
+                            <h3>{contact.username}</h3>
+                        </div>
+                    </div>
+                    <div class=" contact">
+                        <div class="avatar">
+                            <img src='logo.png' alt="tiger" />
+                        </div>
+                        <div class="username">
+                            <h3>{contact.username}</h3>
+                        </div>
+                    </div>
+                    <div class=" contact">
+                        <div class="avatar">
+                            <img src='logo.png' alt="tiger" />
+                        </div>
+                        <div class="username">
+                            <h3>{contact.username}</h3>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="avatar">
+                            <img src='logo.png' alt="tiger" />
+                        </div>
+                        <div class="username">
+                            <h3>{contact.username}</h3>
+                        </div>
+                    </div>
+                    <div class=" contact">
+                        <div class="avatar">
+                            <img src='logo.png' alt="tiger" />
+                        </div>
+                        <div class="username">
+                            <h3>{contact.username}</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="current-user">
+                    <div class="avatar">
+                        <img src='logo.png' alt="avatar" />
+                    </div>
+                    <div class="username">
+                        <h3>{currentUserName}</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- chatContainer -->
+            <div class="chat-container">
+                <div class="chat-header">
+                    <div class="user-details">
+                        <div class="avatar">
+                            <img src='logo.png' alt="" />
+                        </div>
+                        <div class="username">
+                            <h3>{currentChat.username}</h3>
+                        </div>
+                    </div>
+                    <!-- logo -->
+                    <Logout />
+                </div>
+
+
+                <div class="chat-messages">
+                    <div>
+                        <div class="sended ">
+                            <div class="content ">
+                                <p>hii! tiger how are you</p>
+                            </div>
+                        </div>
+                        <div class="sended ">
+                            <div class="content ">
+                                <p>hii! tiger how are you</p>
+                            </div>
+                        </div>
+                        <div class=" recieve">
+                            <div class="content ">
+                                <p>{message.message}</p>
+                            </div>
+                        </div>
+                        <div class="sended ">
+                            <div class="content ">
+                                <p>{message.message}</p>
+                            </div>
+                        </div>
+                        <div class=" recieve">
+                            <div class="content ">
+                                <p>{message.message}</p>
+                            </div>
+                        </div>
+                        <div class="sended ">
+                            <div class="content ">
+                                <p>{message.message}</p>
+                            </div>
+                        </div>
+                        <div class=" recieve">
+                            <div class="content ">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ratione.
+                                    Recusandae rem dolor vel magnam repellat ex nobis minima autem saepe debitis, culpa
+                                    assumenda nemo ipsam, beatae alias doloribus at! Ducimus ratione laboriosam nihil.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <ChatInput handleSendMsg={handleSendMsg} /> -->
+                <form class="input-container">
+                    <div class="emoji">😁</div>
+                    <input type="text" placeholder="Enter message here">
+                    <button><i class="fa-solid fa-paper-plane-top"></i></button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
